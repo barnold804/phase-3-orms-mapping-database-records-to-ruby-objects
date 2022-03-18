@@ -49,4 +49,8 @@ class Song
     song.save
   end
 
+  def self.new_from_db(name:, album:)
+    
+  end
+
 end
